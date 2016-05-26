@@ -1,0 +1,997 @@
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,  li, dl, dt, dd, form, a, fieldset, input, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+}
+body {
+	line-height: 1;
+	font-size: 100%;
+	background: #000;
+	color: #FFF;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+ul, ol, li {
+	list-style: none;
+}
+a{
+	color:#FFF;
+	text-decoration: none;
+}
+a:hover {
+	color: #f7656c;
+	text-decoration: none;
+}
+.cropper {
+	min-width: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.workspace {
+	width: 1024px;
+	min-width: 1024px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.clr {
+	display: block;
+	clear: both;
+	line-height: 0;
+	float: none !important;
+}
+i {
+	font-family: "cassandraregular";
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.8;
+}
+img {
+	border: none;
+}
+/*HEADER*/
+
+
+.header .menu {
+	background: #2e2e2e url(../images/menu_bg_pattern.jpg) repeat-x;
+	font-family: "liberation_sansregular";
+}
+.header .menu .workspace {
+	background: url(../images/menu_bg_right.jpg) no-repeat;
+	background-position: right bottom;
+}
+.header .menu_list {
+	width: 850px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+}
+.header .menu li {
+	display: inline-block;
+	float: left;
+}
+.header .menu a {
+	display: block;
+	padding: 0px 40px 0 48px;
+	font-size: 14px;
+	color: rgb( 255, 255, 255 );
+	background: url(../images/menu_star.png) no-repeat;
+	background-size: 1.5em 1.5em;
+	background-position: 1em center;
+}
+.header .menu a:hover {
+	background: url(../images/menu_star_hover.png) no-repeat;
+	background-size: 1.5em 1.5em;
+	background-position: 1em center;
+	color: #f7656c;
+}
+.header .menu .active {
+	background: url(../images/header_menu_active_bg.png) repeat;
+}
+.header .menu .active a:hover { 
+	color: rgb( 255, 255, 255 );
+}
+/*header_main*/
+
+.header_main {
+	background: url(../images/header_main_bg-pattern.jpg) repeat;
+	font-family: "liberation_sansregular";
+}
+.header_main .workspace {
+	height: 261px;
+	background: url(../images/header_main_bg.jpg) no-repeat;
+}
+.header_main .bg-right {
+	display: block;
+	width: 50px;
+	height: 80px;
+	background: url(../images/header_main_bg-right.jpg) no-repeat;
+	position: absolute;
+	bottom: 0;
+	right: -50px;
+}
+.header .catalog {
+	width:228px;
+	height: 245px;
+	position: absolute;
+	left: 0;
+	top: 17px;
+	overflow:hidden;
+}
+
+.header .logo{
+	position: absolute;
+	top: 0px;
+	right: 276px;
+	display: block;
+	width: 123px;
+	height: 93px;
+	overflow:hidden;
+}
+.header .logo:hover{
+	text-indent:-122px;
+}
+.header .top-line {
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: 340px;
+	width: 280px;
+	text-align: center;
+	font-size: 18px;
+	color: rgb( 116, 116, 116 );
+	line-height: 1.778;
+}
+.header .middle-line {
+	position: absolute;
+	left: 243px;
+	top: 105px;
+	width: 586px;
+	text-align: center;
+}
+.header .middle-line span {
+	font-size: 20px;
+	color: rgb( 254, 154, 193 );
+	line-height: 1.6;
+}
+.header .middle-line h1 {
+	margin: 0;
+	font-size: 56px;
+	font-family: "cassandraregular";
+	font-weight: normal;
+	color: rgb( 255, 255, 255 );
+	line-height: 0px;
+	text-align: center;
+	text-shadow: 0px 1px 0px rgb( 0, 0, 0 );
+	padding-bottom: 65px;
+}
+.header .hide_bant {
+	height: 52.95px;
+	width: 161.45px;
+	background: url(../images/header_main_hide_bant.jpg) no-repeat;
+	position: absolute;
+	right: 65.48px;
+	bottom: 0;
+}
+
+/*content-home*/
+.content-home {
+	font-family: "liberation_sansregular";
+	line-height: 1.7;
+	font-size: 14px;
+}
+.content-home .workspace {
+	min-height: 757px;
+	background: url(../images/content-home_bg.jpg) no-repeat;
+	color: rgb( 255, 255, 255 );
+	
+}
+.content-home a {
+	color: #f7656c;
+	text-decoration: underline;
+}
+.content-home .bg_left_full {
+	width: 1000px;
+	height: 757px;
+	position: absolute;
+	left: -1000px;
+	top: 0px;
+	background: url(../images/content-home_bg_left_pattern.jpg) repeat-x;
+}
+.content-home .bg_left {
+	width: 144px;
+	height: 88px;
+	position: absolute;
+	left: -144px;
+	top: 669px;
+	background: url(../images/content-home_bg_left.jpg) no-repeat;
+}
+.content-home .bg_right {
+	width: 288px;
+	height: 757px;
+	position: absolute;
+	right: -288px;
+	top: 0px;
+	background: url(../images/content-home_bg_right.jpg) no-repeat;
+}
+.content-home .paragraph {
+	padding-top: 21px;
+	position: relative;
+	max-width: 1000px;
+}
+.content-home .first-paragraph{
+	max-width: 682px;
+	min-height: 300px;
+}
+
+.content-home .ribbon {
+	position: relative;
+	height: 85px;
+	line-height: 6.07em;/*=85px*/
+	background: url(../images/content-home_ribbon_bg.jpg) no-repeat;
+	background-position: left 20px;
+	background-size: 100% 45px;
+	display: inline-block;
+}
+.content-home .ribbon_left {
+	position: absolute;
+	left: -105px;
+	top: 0px;
+	height: 85px;
+	width: 105px;
+	background: url(../images/content-home_ribbon_left.png) no-repeat;
+}
+.content-home .ribbon_right {
+	position: absolute;
+	right: -146px;
+	top: 0px;
+	height: 85px;
+	width: 146px;
+	background: url(../images/content-home_ribbon_right.png) no-repeat;
+}
+.content-home h2 {
+	font-family: "liberation_sansbold";
+	font-size: 24px;
+	vertical-align: middle;
+	text-align: left;
+	margin: 0;
+}
+.content-home li {
+	color: #fe9ac1;
+	list-style: decimal inside;
+	font-family: "liberation_sansbold";
+	padding: 0.5em 0;
+}
+.content-home span {
+	color: #FFF;
+	font-family: "liberation_sansregular"
+}
+
+
+
+.chk_box {
+	margin: 0 0 38px;
+}
+
+.btn-reg, a.btn-reg {
+	display: block;
+	float: left;
+	padding: 0 55px;
+	font-family: "liberation_sansbold";
+	font-size: 16px;
+	height: 45px !important;
+	line-height: 45px;
+	cursor: pointer;
+	background: url(../images/btn_bg.png) 0 0 repeat-x;
+	border: none;
+	color: #fff;
+	vertical-align: middle;
+	margin:40px 0 70px 0;
+	text-decoration:none;
+}
+.btn-reg:hover {
+	background-position: 0 -45px;
+}
+
+.jq-checkbox {
+	display: block;
+	float: left;
+	position: relative;
+	width: 26px;
+	height: 24px;
+	margin: 0px 13px 0 0px;
+	background: url(../images/chk.png) 0 0px no-repeat;
+	cursor: pointer;
+}
+.jq-checkbox.checked div {
+	width: 26px;
+	height: 24px;
+	display: block;
+	background: url(../images/chk.png) 0px -24px no-repeat;
+}
+.t_ch {
+	display: block;
+	float: left;
+	font-size: 16px;
+	line-height: 26px;
+	font-family: "liberation_sansbold";
+}
+
+/*FOOTER*/
+.footer {
+	background: url(../images/footer_bg_pattern.jpg) repeat-x;
+	font-family: "liberation_sansregular";
+	font-size: 14px;
+}
+.footer .workspace {
+	height: 370px;
+	background: url(../images/footer_bg.jpg) no-repeat;
+}
+.footer .bg_left {
+	width: 230px;
+	height: 148px;
+	position: absolute;
+	left: -230px;
+	top: 0px;
+	background: url(../images/footer_bg_left.jpg) no-repeat;
+}
+.footer .bg_right {
+	width: 231px;
+	height: 148px;
+	position: absolute;
+	right: -231px;
+	top: 0px;
+	background: url(../images/footer_bg_right.jpg) no-repeat;
+}
+
+.footer p {margin-top:10px;}
+.footer .copyright {
+	color: rgb( 141, 141, 141 );
+	position: absolute;
+	bottom: 215px;
+	left: 0;
+}
+
+
+.footer .menu {
+	position: absolute;
+	bottom: 215px;
+	right: 0;
+
+}
+.footer .menu a {
+	color: rgb( 141, 141, 141 )
+}
+.footer .menu a:hover{
+	color: #f7656c;
+}
+.footer .menu .active a:hover {
+	color: rgb( 255, 255, 255 )
+}
+.footer .menu .active a {
+	color: rgb( 255, 255, 255 )
+}
+.footer .menu li {
+	display: inline;
+	list-style-type: none;
+}
+.footer .menu li:before {
+	content: "|";
+	padding: 0 25px;
+	color: rgb( 141, 141, 141 );
+}
+.footer .menu li:first-child:before {
+	content: "";
+}
+.footer a.logo {
+	position: absolute;
+	top: 182px;
+	left: 433.5px;
+	display: block;
+	width: 158px;
+	height: 134px;
+	overflow:hidden;
+}
+.footer a.logo:hover {
+	text-indent:-158px;
+}
+
+
+
+/*CONTEST*/
+.contest {
+	text-align: center;
+}
+
+.contest .present, .contest .leaders, .contest .clock {
+	display: inline-block;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	padding-top: 43px;
+}
+.present {
+	width: 232px;
+	padding-right: 23px;
+	color: #9c9c9c;
+}
+.present .head i {
+	display: block;
+	overflow: hidden;
+	height: 28px;
+	line-height: 20px;
+	font-size: 22px;
+}
+.present .head span {
+	display: block;
+	overflow: hidden;
+	height: 32px;
+	line-height: 32px;
+	font-family: "liberation_sansregular";
+	font-size: 22px;
+	padding-bottom: 10px;
+}
+.present .foto {
+	display: block;
+	overflow: hidden;
+	height: 300px;
+	width: 232px;
+}
+.present .name {
+	height: 56px;
+	overflow: hidden;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: "Arial";
+	font-weight: bold;
+}
+.present .name p {
+	padding-top: 10px;
+}
+.leaders {
+	width: 517px;
+	padding-right: 47px;
+	padding-left: 25px;
+}
+.leaders_head span {
+	height: 39px;
+	line-height: 39px;
+	display: block;
+	overflow: hidden;
+	font-size: 34px;
+	font-family: "Arial";
+	font-weight: bold;
+	padding: 0 19px;
+}
+.leaders_head i {
+	height: 45px;
+	line-height: 45px;
+	display: block;
+	overflow: hidden;
+	font-size: 26px;
+	color: #FFF;
+	padding: 0 19px;
+}
+.person {
+	width: 147px;
+	float: left;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	overflow: hidden;
+}
+.leaders .person {
+	padding-left: 19px;
+}
+.person_foto {
+	width: 147px;
+	height: 201px;
+	display: block;
+	overflow: hidden;
+}
+.person_name {
+	height: 38px;
+	line-height: 20px;
+
+	overflow: hidden;
+	font-family: "Arial";
+	font-weight: bold;
+	padding-bottom: 5px;
+	
+}
+.person_name p {display: table;  height: 38px;}
+.person_name a {display:table-cell; width: 147px; vertical-align: middle; text-align:center;}
+.contest .person_name {
+	padding-top: 10px;
+}
+
+.contest .person_name {
+	font-size: 15px;
+}
+.winners .person_name {
+	font-size: 18px;
+}
+.person_sity {
+	height: 27px;
+	line-height: 27px;
+	display: block;
+	overflow: hidden;
+	color: rgb( 94, 94, 94 );
+	font-family: "Arial";
+	font-weight: normal;
+}
+.contest .person_sity {
+	font-size: 13px;
+}
+.person_voice {
+	height: 39px;
+	line-height: 39px;
+	overflow: hidden;
+	font-family: "Arial";
+	font-weight: bold;
+}
+.person_voice span {
+	font-size: 20px;
+	color: rgb( 242, 242, 242 );
+	font-weight: bold;
+	vertical-align: top;
+}
+.gold .person_voice_icon {
+	background: url(../images/person_voice_icon_gold.jpg) no-repeat;
+	background-position: center;
+}
+.silver .person_voice_icon {
+	background: url(../images/person_voice_icon_silver.jpg) no-repeat;
+	background-position: center;
+}
+.bronze .person_voice_icon {
+	background: url(../images/person_voice_icon_bronze.jpg) no-repeat;
+	background-position: center;
+}
+.gold .person_voice_icon:hover {
+	background: url(../images/person_voice_icon_gold_hover.png) no-repeat;
+	background-position: center;
+}
+.silver .person_voice_icon:hover {
+	background: url(../images/person_voice_icon_silver_hover.png) no-repeat;
+	background-position: center;
+}
+.bronze .person_voice_icon:hover {
+	background: url(../images/person_voice_icon_bronze_hover.png) no-repeat;
+	background-position: center;
+}
+.clock {
+	width: 180px;
+}
+.clock_head {
+	color: #9c9c9c;
+}
+.clock_head i {
+	height: 39px;
+	line-height: 39px;
+	display: block;
+	overflow: hidden;
+	font-size: 21px;
+}
+.clock_head span {
+	height: 26px;
+	line-height: 26px;
+	display: block;
+	overflow: hidden;
+	font-size: 28px;
+	font-family: "liberation_sansbold";
+	text-transform: uppercase;
+}
+
+.counter_wr {
+}
+#counter {
+	background: url(../images/counter_bg.png) 0 0 no-repeat;
+	position: relative;
+	width: 180px;
+	height: 329px;
+}
+#counter .digit {
+	background: url(../images/digits2.png);
+}
+#counter #digit-bg0, #counter #digit-bg1 {
+	background: url(../images/digits.png);
+}
+#digit6 , #digit7{display:none;}
+
+#counter .digit_wr {
+	position: absolute !important;
+}
+#digit0 {
+	top: 31px;
+	left: 18px;
+}
+#digit1 {
+	top: 31px;
+	left: 86px;
+}
+#digit2 {
+	top: 247px;
+	left: 21px;
+}
+#digit3 {
+	top: 247px;
+	left: 45px;
+}
+#digit4 {
+	top: 247px;
+	left: 112px;
+}
+#digit5 {
+	top: 247px;
+	left: 136px;
+}
+#digit7 {
+	left: 20px;
+}
+
+
+.person_other {
+	height: 678px;
+	width: 100%;
+	padding-top: 25px;
+	border-top: 1px #333333 solid;
+	border-bottom: 1px #333333 solid;
+	overflow: hidden;
+}
+.person_other_wrap {
+	margin-left: -27px;
+}
+.person_other .person {
+	padding-left: 27px;
+}
+.person_other .person_voice {
+	height: 35px;
+	line-height: 35px;
+	overflow: hidden;
+	font-family: "Arial";
+	font-weight: bold;
+}
+.person_voice_icon {
+	width: 29px;
+	height: 39px;
+	display: inline-block;
+	padding-right: 5px;
+	background: url(../images/like.png) no-repeat;
+	background-position: center;
+	cursor:pointer;
+}
+.person_voice_icon:hover {
+	height: 39px;
+	background: url(../images/like_hover.png) no-repeat;
+	background-position: center;
+}
+
+.fl_c {
+	overflow: hidden;
+	width: 1024px;
+	position: relative;
+}
+.fl_c1 {
+	position: relative;
+	float: left;
+	left: 50%;
+}
+.fl_c2 {
+	position: relative;
+	float: left;
+	left: -50%;
+	overflow: hidden;
+}
+.pager {
+	overflow: hidden;
+	margin: 0px 0 20px;
+	height: 79px;
+	line-height: 79px;
+}
+.pager ul {
+}
+.pager ul li {
+	float: left;
+	margin: 0 0 0 40px;
+}
+.pager ul li > * {
+	display: block;
+}
+.pager .lbtn {
+	width: 41px;
+	height: 79px;
+	background: url(../images/pager_arrow_left.png) no-repeat;
+	background-position: center;
+}
+.pager .rbtn {
+	width: 41px;
+	height: 79px;
+	background: url(../images/pager_arrow_right.png) no-repeat;
+	background-position: center;
+}
+.pager .rbtn:hover {
+	background: url(../images/pager_arrow_right_hover.png) no-repeat;
+	background-position: center;
+}
+.pager .lbtn:hover {
+	background: url(../images/pager_arrow_left_hover.png) no-repeat;
+	background-position: center;
+}
+.pager li a {
+	color: #8d8d8d;
+	font-size: 36px;
+	font-family: "helvetica_condensed_blackRg";
+	text-decoration: none;
+}
+.pager li a:hover {
+	color: #FFF;
+}
+
+.pager .active a {color:#FFF; cursor:default;}
+
+/*WINNER*/
+.win_head {
+	height: 144px;
+	text-align: center;
+	border-bottom: 1px solid;
+	border-bottom-color: #333333;
+}
+.win_head b {
+	padding-top: 32px;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+	overflow: hidden;
+	font-size: 34px;
+	font-family: "Arial";
+}
+.win_head i {
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	overflow: hidden;
+	font-size: 26px;
+}
+.win_info {
+	padding-top: 20px;
+}
+.win_info .person_name:hover {
+	color: #fff
+}
+
+
+.win_avatar_small {
+	width: 175px;
+	height: 172px;
+	clear: right;
+	float: left;
+	display: block;
+	background: url(../images/winners_bg_small.png) no-repeat;
+	padding-right: 38px;
+}
+
+.avatar_foto_small {	
+	width: 66px;
+	height: 66px;
+	margin: 54.5px;
+	border-radius:66px;
+	behavior: url(PIE.htc);
+	display:block;
+	overflow:hidden;
+	position:relative;
+}
+
+.win_txt {
+	font: 14px/22px "Arial";
+
+	overflow: hidden;
+}
+.win_txt span, .back {
+	font-weight: bold
+}
+.back {
+	float: right;
+	text-decoration: none;
+	color: #f7656c;
+	font: 16px "Arial";
+}
+.back:hover {
+	text-decoration: underline;
+}
+.arrow {
+	display: inline-block;
+	width: 24px;
+	height: 10px;
+}
+.arrow_back {
+	padding-right: 8px;
+	background: url(../images/arrow_back.png) no-repeat;
+}
+.winner .person_name {
+	font-size: 22px;
+}
+.winner .person_sity {
+	font-size: 15px;
+}
+/*WINNERS*/
+.winners_wrap {
+	padding-top: 20px;
+	margin: 0 -28px;
+}
+.winners_person {
+	width: 296px;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+	padding: 0 28px 25px 28px;
+	float: left;
+}
+.winners_avatar {
+	width: 296px;
+	height: 296px;
+	display: block;
+	overflow: hidden;
+	background: url(../images/winners_bg.png);
+}
+.winners_avatar_foto {
+	width: 111px;
+	height: 111px;
+	margin: 92.5px;
+	border-radius:111px;
+	behavior: url(PIE.htc);
+	display:block;
+	overflow:hidden;
+	position:relative;
+}
+.winners_person i {
+	height: 41px;
+	line-height: 41px;
+	display: block;
+	overflow: hidden;
+	padding: 12px 0 12px 0px;
+	font-size: 26px;
+	color: #FFF;
+}
+.voting .person_name {
+	color: #f7656c;
+	cursor: default;
+}
+.voting span {
+	display: block;
+}
+.voting .person_sity a {
+	color: rgb(94, 94, 94);
+	text-decoration: none;
+	padding-left: 8px;
+}
+.voting .person_sity a:hover {
+	color: #FFF;
+}
+.voting .person_sity a span {
+	display: inline-block;
+	width: 18px;
+	height: 9px;
+	background: url(../images/pager_arrow_right.png) no-repeat;
+	background-size: auto 9px;
+	margin-left: 10px;
+	background-position: right;
+}
+.voting .person_sity a:hover span {
+	background: url(../images/pager_arrow_right_hover.png) no-repeat;
+	background-size: auto 9px;
+	background-position: right;
+}
+
+
+/*REGISTRATION*/
+input[type="text"], textarea, .jq-file {
+	background-color: #242424;
+	border: 1px solid #454545;
+	margin: 0;
+	font-weight: normal;
+}
+input[type="text"] {
+	height: 38px;
+	padding: 0 20px;
+	width: 324px;
+}
+.reg_text {
+	margin: 30px 0;
+}
+.reg_text_left {
+	float: left;
+}
+.reg_text .hide-scroll_wrap {
+	position: relative;
+	width: 344px;
+}
+.reg_text .hide-scroll {
+	width: 21px;
+	height: 95%;
+	position: absolute;
+	right: -21px;
+	top: 2.5%;
+	background: #242424;
+}
+.reg_text, input[type="text"], textarea, .reg_text_right p, .pass {
+	font-size: 14px;
+	font-family: "Arial";
+	color: rgb( 255, 255, 255 );
+	line-height: 20px;
+	text-align: left;
+}
+.reg_text p, .reg_text_right p {
+	padding: 0 0 12px 20px;
+	font-weight: bold;
+}
+textarea {
+	width: 344px;
+	height: 106px;
+	resize: none;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding: 5px 0px 5px 20px;
+}
+.pass {
+	color: rgb( 141, 141, 141 );
+	padding-bottom: 50px;
+}
+.pass a {
+	color: rgb( 255, 255, 255 )
+}
+.pass a {
+	font-size: 14px;
+	text-decoration: none;
+}
+.pass a:hover {
+	color: #f7656c;
+}
+.reg_text_right {
+	float: right;
+	margin: 30px 0;
+}
+.reg_text_right .foto {
+	background: #d1d1d1 url(../images/reg_foto_bg.jpg);
+	width: 363px;
+	height: 410px;
+	margin: 8px 0 30px 0;
+}
+
+/*input file*/
+/*.jq-file	родительский контейнер
+.jq-file.focused	фокус на поле, когда нажата клавиша Tab
+.jq-file.disabled	неактивное поле
+.jq-file__name	поле с именем файла
+.jq-file__browse	кнопка выбора файла*/
+
+.jq-file {
+	margin-bottom: 13px;
+}
+.jq-file input {
+	cursor: pointer;
+	height: auto;
+	line-height: 1em;
+}
+.jq-file__name {
+	height: 38px;
+	line-height: 38px;
+	width: 273px;
+	padding: 0px 20px;
+	border: none;
+	background: none;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-size: 14px;
+	font-family: "Arial";
+	color: rgb( 255, 255, 255 );
+	text-align: left;
+}
+.jq-file__browse {
+	width: 21px;
+	padding: 0 14px;
+	background: url(../images/file_bg.png) center no-repeat;
+	height: 38px;
+}

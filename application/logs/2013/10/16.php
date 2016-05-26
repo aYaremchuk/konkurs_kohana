@@ -1,0 +1,97 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2013-10-16 19:31:09 --- EMERGENCY: ErrorException [ 1 ]: Call to undefined method Model_User::get_count() ~ APPPATH/views/pages/vote.php [ 78 ] in file:line
+2013-10-16 19:31:09 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2013-10-16 19:41:55 --- EMERGENCY: Kohana_Exception [ 0 ]: The like property does not exist in the Model_User class ~ MODPATH/orm/classes/Kohana/ORM.php [ 687 ] in /home/victor/projects/kohana/www/modules/orm/classes/Kohana/ORM.php:603
+2013-10-16 19:41:55 --- DEBUG: #0 /home/victor/projects/kohana/www/modules/orm/classes/Kohana/ORM.php(603): Kohana_ORM->get('like')
+#1 /home/victor/projects/kohana/www/application/classes/Model/User.php(16): Kohana_ORM->__get('like')
+#2 /home/victor/projects/kohana/www/application/views/pages/vote.php(78): Model_User->get_count()
+#3 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(61): include('/home/victor/pr...')
+#4 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(348): Kohana_View::capture('/home/victor/pr...', Array)
+#5 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(228): Kohana_View->render()
+#6 /home/victor/projects/kohana/www/application/views/template.php(32): Kohana_View->__toString()
+#7 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(61): include('/home/victor/pr...')
+#8 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(348): Kohana_View::capture('/home/victor/pr...', Array)
+#9 /home/victor/projects/kohana/www/system/classes/Kohana/Controller/Template.php(44): Kohana_View->render()
+#10 /home/victor/projects/kohana/www/system/classes/Kohana/Controller.php(87): Kohana_Controller_Template->after()
+#11 [internal function]: Kohana_Controller->execute()
+#12 /home/victor/projects/kohana/www/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Static))
+#13 /home/victor/projects/kohana/www/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#14 /home/victor/projects/kohana/www/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#15 /home/victor/projects/kohana/www/index.php(118): Kohana_Request->execute()
+#16 {main} in /home/victor/projects/kohana/www/modules/orm/classes/Kohana/ORM.php:603
+2013-10-16 19:44:44 --- EMERGENCY: ErrorException [ 8 ]: Array to string conversion ~ APPPATH/classes/Model/User.php [ 19 ] in /home/victor/projects/kohana/www/application/classes/Model/User.php:19
+2013-10-16 19:44:44 --- DEBUG: #0 /home/victor/projects/kohana/www/application/classes/Model/User.php(19): Kohana_Core::error_handler(8, 'Array to string...', '/home/victor/pr...', 19, Array)
+#1 /home/victor/projects/kohana/www/application/views/pages/vote.php(78): Model_User->get_count()
+#2 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(61): include('/home/victor/pr...')
+#3 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(348): Kohana_View::capture('/home/victor/pr...', Array)
+#4 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(228): Kohana_View->render()
+#5 /home/victor/projects/kohana/www/application/views/template.php(32): Kohana_View->__toString()
+#6 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(61): include('/home/victor/pr...')
+#7 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(348): Kohana_View::capture('/home/victor/pr...', Array)
+#8 /home/victor/projects/kohana/www/system/classes/Kohana/Controller/Template.php(44): Kohana_View->render()
+#9 /home/victor/projects/kohana/www/system/classes/Kohana/Controller.php(87): Kohana_Controller_Template->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 /home/victor/projects/kohana/www/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Static))
+#12 /home/victor/projects/kohana/www/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 /home/victor/projects/kohana/www/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#14 /home/victor/projects/kohana/www/index.php(118): Kohana_Request->execute()
+#15 {main} in /home/victor/projects/kohana/www/application/classes/Model/User.php:19
+2013-10-16 19:44:51 --- EMERGENCY: ErrorException [ 8 ]: Trying to get property of non-object ~ APPPATH/classes/Model/User.php [ 19 ] in /home/victor/projects/kohana/www/application/classes/Model/User.php:19
+2013-10-16 19:44:51 --- DEBUG: #0 /home/victor/projects/kohana/www/application/classes/Model/User.php(19): Kohana_Core::error_handler(8, 'Trying to get p...', '/home/victor/pr...', 19, Array)
+#1 /home/victor/projects/kohana/www/application/views/pages/vote.php(78): Model_User->get_count()
+#2 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(61): include('/home/victor/pr...')
+#3 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(348): Kohana_View::capture('/home/victor/pr...', Array)
+#4 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(228): Kohana_View->render()
+#5 /home/victor/projects/kohana/www/application/views/template.php(32): Kohana_View->__toString()
+#6 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(61): include('/home/victor/pr...')
+#7 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(348): Kohana_View::capture('/home/victor/pr...', Array)
+#8 /home/victor/projects/kohana/www/system/classes/Kohana/Controller/Template.php(44): Kohana_View->render()
+#9 /home/victor/projects/kohana/www/system/classes/Kohana/Controller.php(87): Kohana_Controller_Template->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 /home/victor/projects/kohana/www/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Static))
+#12 /home/victor/projects/kohana/www/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 /home/victor/projects/kohana/www/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#14 /home/victor/projects/kohana/www/index.php(118): Kohana_Request->execute()
+#15 {main} in /home/victor/projects/kohana/www/application/classes/Model/User.php:19
+2013-10-16 19:45:46 --- EMERGENCY: ErrorException [ 8 ]: Array to string conversion ~ APPPATH/classes/Model/User.php [ 19 ] in /home/victor/projects/kohana/www/application/classes/Model/User.php:19
+2013-10-16 19:45:46 --- DEBUG: #0 /home/victor/projects/kohana/www/application/classes/Model/User.php(19): Kohana_Core::error_handler(8, 'Array to string...', '/home/victor/pr...', 19, Array)
+#1 /home/victor/projects/kohana/www/application/views/pages/vote.php(78): Model_User->get_count()
+#2 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(61): include('/home/victor/pr...')
+#3 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(348): Kohana_View::capture('/home/victor/pr...', Array)
+#4 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(228): Kohana_View->render()
+#5 /home/victor/projects/kohana/www/application/views/template.php(32): Kohana_View->__toString()
+#6 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(61): include('/home/victor/pr...')
+#7 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(348): Kohana_View::capture('/home/victor/pr...', Array)
+#8 /home/victor/projects/kohana/www/system/classes/Kohana/Controller/Template.php(44): Kohana_View->render()
+#9 /home/victor/projects/kohana/www/system/classes/Kohana/Controller.php(87): Kohana_Controller_Template->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 /home/victor/projects/kohana/www/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Static))
+#12 /home/victor/projects/kohana/www/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 /home/victor/projects/kohana/www/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#14 /home/victor/projects/kohana/www/index.php(118): Kohana_Request->execute()
+#15 {main} in /home/victor/projects/kohana/www/application/classes/Model/User.php:19
+2013-10-16 19:46:28 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: like_id ~ APPPATH/classes/Model/User.php [ 19 ] in /home/victor/projects/kohana/www/application/classes/Model/User.php:19
+2013-10-16 19:46:28 --- DEBUG: #0 /home/victor/projects/kohana/www/application/classes/Model/User.php(19): Kohana_Core::error_handler(8, 'Undefined index...', '/home/victor/pr...', 19, Array)
+#1 /home/victor/projects/kohana/www/application/views/pages/vote.php(78): Model_User->get_count()
+#2 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(61): include('/home/victor/pr...')
+#3 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(348): Kohana_View::capture('/home/victor/pr...', Array)
+#4 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(228): Kohana_View->render()
+#5 /home/victor/projects/kohana/www/application/views/template.php(32): Kohana_View->__toString()
+#6 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(61): include('/home/victor/pr...')
+#7 /home/victor/projects/kohana/www/system/classes/Kohana/View.php(348): Kohana_View::capture('/home/victor/pr...', Array)
+#8 /home/victor/projects/kohana/www/system/classes/Kohana/Controller/Template.php(44): Kohana_View->render()
+#9 /home/victor/projects/kohana/www/system/classes/Kohana/Controller.php(87): Kohana_Controller_Template->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 /home/victor/projects/kohana/www/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Static))
+#12 /home/victor/projects/kohana/www/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 /home/victor/projects/kohana/www/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#14 /home/victor/projects/kohana/www/index.php(118): Kohana_Request->execute()
+#15 {main} in /home/victor/projects/kohana/www/application/classes/Model/User.php:19
+2013-10-16 19:55:18 --- EMERGENCY: ErrorException [ 1 ]: Call to a member function find_all() on a non-object ~ APPPATH/classes/Model/User.php [ 18 ] in file:line
+2013-10-16 19:55:18 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2013-10-16 20:07:34 --- EMERGENCY: ErrorException [ 1 ]: Call to undefined method Model_User::get_count() ~ APPPATH/views/pages/vote.php [ 78 ] in file:line
+2013-10-16 20:07:34 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line

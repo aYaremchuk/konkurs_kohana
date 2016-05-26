@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'helvetica_condensed_blackRg';
+    src: url('../font/helvetica-condensed-black-webfont.eot');
+    src: url('../font/helvetica-condensed-black-webfont.eot?#iefix') format('embedded-opentype'),
+url('../font/helvetica-condensed-black-webfont.woff') format('woff'),
+url('../font/helvetica-condensed-black-webfont.ttf') format('truetype'),
+url('../font/helvetica-condensed-black-webfont.svg#helvetica_condensed_blackRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cassandraregular';
+    src: url('../font/cassandra_0-webfont.eot');
+    src: url('../font/cassandra_0-webfont.eot?#iefix') format('embedded-opentype'),
+url('../font/cassandra_0-webfont.woff') format('woff'),
+url('../font/cassandra_0-webfont.ttf') format('truetype'),
+url('../font/cassandra_0-webfont.svg#cassandraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'liberation_sansbold';
+    src: url('../font/liberationsans-bold-webfont.eot');
+    src: url('../font/liberationsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+url('../font/liberationsans-bold-webfont.woff') format('woff'),
+url('../font/liberationsans-bold-webfont.ttf') format('truetype'),
+url('../font/liberationsans-bold-webfont.svg#liberation_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'liberation_sansregular';
+    src: url('../font/liberationsans-regular-webfont.eot');
+    src: url('../font/liberationsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('../font/liberationsans-regular-webfont.woff') format('woff'),
+url('../font/liberationsans-regular-webfont.ttf') format('truetype'),
+url('../font/liberationsans-regular-webfont.svg#liberation_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
